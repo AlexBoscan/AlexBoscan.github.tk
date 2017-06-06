@@ -1,0 +1,119 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+}
+body {
+	background: url("images/bg.jpg") repeat;
+
+}
+.header {
+	position: fixed;
+	width: auto;
+	margin: 0;
+}
+#container {
+	margin: 15%;
+	height: 600px;
+	width: 800px;
+	position: absolute;
+	background-color: hsl(136, 50%, 50%);
+}
+#img {
+	height: 600px;
+	width: 800px;
+	position: absolute;
+}
+#left_holder {
+	height: 700px ; 
+	width : 100px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#right_holder {
+	height: 700px;
+	width: 100px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.left {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 20px;
+	opacity: 0.6;
+}
+.left:hover {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 20px;
+	opacity: 1;
+}
+.logo{
+	background-image: url("image/ic_launcher.png");
+	height: 50px;
+	width: 50px;
+	margin: 5px 0 0 0 5px;
+}
+.right {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	right: 20px;
+	opacity: 0.6;
+}
+.right:hover {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 30px;
+	opacity: 1;
+}
+a {
+	text-decoration: none;
+	color: hsl(0, 0%, 0%);
+	padding: 34px 60px 13px 60px;
+	font-weight: bold;
+
+}
+#curent {
+	color: white;
+	margin-top: 35px;
+	margin-right: 0;
+
+}
+.link_pos {
+	margin-top: 35px;
+}
+
+.nav {
+	width: 1309px;
+	background: hsl(89, 50%, 50%);
+	display: flex;
+	margin: 0;
+	box-shadow: 0 3px 10px 0 hsla(0, 10%, 20%, .8);
+	height: 65px;
+}
+ul {
+	list-style: none;
+}
+li {
+	flex: 5;
+	margin: 0;
+	padding: 0;
+	width: 0;
+	flex-wrap: nowrap;
+}
+a:hover {
+	background: hsl(100, 50%, 30%);
+	height: 20px;
+	color: hsl(225, 100%, 100%);
+	font-weight: bold;
+}
